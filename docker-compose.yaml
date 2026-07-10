@@ -21,8 +21,8 @@ services:
     depends_on:
       - catalogue
 
-  networks:
-    default: 
-      name: roboshop
-      driver: bridge
-      external: false
+networks:
+  default: 
+    name: roboshop
+    driver: bridge
+    external: false
